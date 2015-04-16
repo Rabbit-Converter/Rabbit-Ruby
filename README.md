@@ -1,6 +1,6 @@
 # Rabbit-Ruby
 
-**Another Zawgyi <=> Unicode Converter as a Rubygem**
+**Another Zawgyi <=> Unicode Converter as a ruby gem**. Written in [Ruby](https://www.ruby-lang.org/en).
 
 ## About
 
@@ -51,7 +51,7 @@ rabbit.zg2uni("မဂၤလာပါ")   # returns unicode strings "မင်္
 
 ## Contributing
 
-1. Fork it ( https://github.com/yelinaung/mmfont )
+1. Fork it ( https://github.com/Rabbit-Converter/Rabbit-Ruby )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
