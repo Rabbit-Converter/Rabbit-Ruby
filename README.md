@@ -1,4 +1,61 @@
 # Rabbit-Ruby
 
+**Another Zawgyi <=> Unicode Converter as a Rubygem**
+
+## About
+
+Zawgyi to Unicode has been written in [2011](https://github.com/saturngod/ZG2Uni_JS/commits/master). Now, unicode to zawgyi has been finished.
+
+## Motivation
+
+When I was writting [ZG2uni](https://github.com/saturngod/ZG2Uni_JS/), [Parabaik](https://github.com/ngwestar/parabaik) is not opensource. At that time, I need to use for [MYSTERY ZILLION](http://www.mysteryzillion.org) for converting the whole database to Unicode.
+
+For Unicode to Zawgyi, Parabaik is under the GPL license and cannot use in iOS app and Android App. So, I decided to write new one with **WTFPL license**. This ruby gem is under MIT License.
+
+> I cannot promise , it's correct 100% after converting.
+
+> If you are not using in app or program and just for converting the text , please use [Parabaik](https://github.com/ngwestar/parabaik)
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'rabbit-mm'
+```
+
+And then execute:
+
+```bash
+$ bundle
+```
+
+Or install it yourself as:
+
+```bash
+$ gem install rabbit-mm
+```
+
+## Usage
+
+```ruby
+require 'rabbit-mm'
+
+rabbit = Rabbit::Converter.new
+
+rabbit.uni2zg("မင်္ဂလာပါ")  # returns zg strings "မဂၤလာပါ"
+
+rabbit.zg2uni("မဂၤလာပါ")   # returns unicode strings "မင်္ဂလာပါ"
+
+```
+
+## Contributing
+
+1. Fork it ( https://github.com/yelinaung/mmfont )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
+
 ## License
 MIT
