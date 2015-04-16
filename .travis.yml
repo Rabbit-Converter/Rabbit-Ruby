@@ -1,3 +1,8 @@
 language: ruby
 rvm:
-  - 2.2.1
+  - ruby-head
+  - jruby-head
+matrix:
+  allow_failures:
+    - rvm: jruby-head
+install: gem install bundler
