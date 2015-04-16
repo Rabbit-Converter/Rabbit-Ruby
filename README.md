@@ -1,1 +1,4 @@
 # Rabbit-Ruby
+
+## License
+MIT
