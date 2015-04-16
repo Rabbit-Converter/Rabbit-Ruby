@@ -5,4 +5,3 @@ rvm:
 matrix:
   allow_failures:
     - rvm: jruby-head
-install: gem install bundler
