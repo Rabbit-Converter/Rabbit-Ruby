@@ -21,6 +21,6 @@ class TestRabbit < Minitest::Test
     assert_equal 'ဘောလုံးကန်တာမှ ကောင်းဦးမယ်', converter.zg2uni('ေဘာလုံးကန္တာမွ ေကာင္းဦးမယ္')
     assert_equal 'မြန်မာလိုပြောမယ်လကွာ', converter.zg2uni('ျမန္မာလိုေျပာမယ္လကြာ')
     assert_equal 'ယေဓမ္မာ ဟေတုပ္ပဘဝါ တေသံ ဟေတုံ တထာဂတော အာဟ တေသဉ္စ ယောနိရောဓေါ ဧဝံ ဝါဒီ မဟာသမဏော။', converter.zg2uni('ေယဓမၼာ ေဟတုပၸဘဝါ ေတသံ ေဟတုံ တထာဂေတာ အာဟ ေတသၪၥ ေယာနိေရာေဓါ ဧဝံ ဝါဒီ မဟာသမေဏာ။')
-    assert_equal ' ေမႊေႏွာက္', converter.zg2uni('မွှေနှောက်')
+    assert_equal 'မွှေနှောက်', converter.zg2uni('ေမႊေႏွာက္') 
   end
 end
