@@ -11,9 +11,9 @@ Zawgyi to Unicode has been written in [2011](https://github.com/saturngod/ZG2Uni
 
 ## Motivation
 
-When I was writting [ZG2uni](https://github.com/saturngod/ZG2Uni_JS/), [Parabaik](https://github.com/ngwestar/parabaik) is not opensource. At that time, I need to use for [MYSTERY ZILLION](http://www.mysteryzillion.org) for converting the whole database to Unicode.
+When I was writting [ZG2uni](https://github.com/saturngod/ZG2Uni_JS/), [Parabaik](https://github.com/ngwestar/parabaik) was not opensource. At that time, I need to use for [MYSTERY ZILLION](http://www.mysteryzillion.org) for converting the whole database to Unicode.
 
-For Unicode to Zawgyi, Parabaik is under the GPL license and cannot use in iOS app and Android App. So, I decided to write new one with **WTFPL license**. This ruby gem is under MIT License.
+For Unicode to Zawgyi, Parabaik is under the ~~GPL license and cannot use in iOS app and Android App~~ LGPL. So, I decided to write new one with **WTFPL license**. This ruby gem is under MIT License.
 
 > I cannot promise , it's correct 100% after converting.
 
