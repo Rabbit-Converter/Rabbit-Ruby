@@ -16,9 +16,11 @@ class TestRabbit < Minitest::Test
 
   # zg to uni converting test
   def test_convert_zg2uni
-    assert_equal 'မင်္ဂလာပါ', Rabbit::Converter.new.zg2uni('မဂၤလာပါ')
-    assert_equal 'ဘောလုံးကန်တာမှ ကောင်းဦးမယ်', Rabbit::Converter.new.zg2uni('ေဘာလုံးကန္တာမွ ေကာင္းဦးမယ္')
-    assert_equal 'မြန်မာလိုပြောမယ်လကွာ', Rabbit::Converter.new.zg2uni('ျမန္မာလိုေျပာမယ္လကြာ')
-    assert_equal 'ယေဓမ္မာ ဟေတုပ္ပဘဝါ တေသံ ဟေတုံ တထာဂတော အာဟ တေသဉ္စ ယောနိရောဓေါ ဧဝံ ဝါဒီ မဟာသမဏော။', Rabbit::Converter.new.zg2uni('ေယဓမၼာ ေဟတုပၸဘဝါ ေတသံ ေဟတုံ တထာဂေတာ အာဟ ေတသၪၥ ေယာနိေရာေဓါ ဧဝံ ဝါဒီ မဟာသမေဏာ။')
+    converter = Rabbit::Converter.new
+    assert_equal 'မင်္ဂလာပါ', converter.zg2uni('မဂၤလာပါ')
+    assert_equal 'ဘောလုံးကန်တာမှ ကောင်းဦးမယ်', converter.zg2uni('ေဘာလုံးကန္တာမွ ေကာင္းဦးမယ္')
+    assert_equal 'မြန်မာလိုပြောမယ်လကွာ', converter.zg2uni('ျမန္မာလိုေျပာမယ္လကြာ')
+    assert_equal 'ယေဓမ္မာ ဟေတုပ္ပဘဝါ တေသံ ဟေတုံ တထာဂတော အာဟ တေသဉ္စ ယောနိရောဓေါ ဧဝံ ဝါဒီ မဟာသမဏော။', converter.zg2uni('ေယဓမၼာ ေဟတုပၸဘဝါ ေတသံ ေဟတုံ တထာဂေတာ အာဟ ေတသၪၥ ေယာနိေရာေဓါ ဧဝံ ဝါဒီ မဟာသမေဏာ။')
+    assert_equal ' ေမႊေႏွာက္', converter.zg2uni('မွှေနှောက်')
   end
 end
