@@ -1,6 +1,7 @@
 # Rabbit-Ruby
 
 [![Build Status](https://travis-ci.org/Rabbit-Converter/Rabbit-Ruby.svg?branch=master)](https://travis-ci.org/Rabbit-Converter/Rabbit-Ruby)
+[![Gem Version](https://badge.fury.io/rb/rabbit-mm.svg)](http://badge.fury.io/rb/rabbit-mm)
 
 **Another Zawgyi <=> Unicode Converter as a ruby gem**. Written in [Ruby](https://www.ruby-lang.org/en).
 
