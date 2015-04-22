@@ -56,6 +56,12 @@ rabbit.zg2uni("မဂၤလာပါ")   # returns unicode strings "မင်္
 
 1. Fork it ( https://github.com/Rabbit-Converter/Rabbit-Ruby )
 2. Create your feature branch (`git checkout -b my-new-feature`)
+  - Install ruby with [rvm](http://rvm.io), if you haven't.
+  - Run `bundle install`
+  - Add a test case.
+  - Implement the code.
+  - Make the tests pass.
+  - You can run with `rake test` or just `rake` in the repo.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
