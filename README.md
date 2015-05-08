@@ -52,6 +52,10 @@ rabbit.zg2uni("မဂၤလာပါ")   # returns unicode strings "မင်္
 
 ```
 
+## JRuby Support ?
+
+Yes. Tested with jruby-1.7.20
+
 ## Contributing
 
 1. Fork it ( https://github.com/Rabbit-Converter/Rabbit-Ruby )
