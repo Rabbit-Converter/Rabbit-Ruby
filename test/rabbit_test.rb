@@ -13,7 +13,7 @@ class TestRabbit < Minitest::Test
   # uni to zg converting test
   def test_convert_uni2zg
     converter = Rabbit::Converter.new
-    parsed = JSON.parse(File.read("sample.json"))
+    parsed = JSON.parse(File.read("test/sample.json"))
     parsed["zg"].each_with_index do |zg_string, index|
       assert_equal zg_string, converter.uni2zg(parsed["uni"][index])
     end
@@ -22,7 +22,7 @@ class TestRabbit < Minitest::Test
   # zg to uni converting test
   def test_convert_zg2uni
     converter = Rabbit::Converter.new
-    parsed = JSON.parse(File.read("sample.json"))
+    parsed = JSON.parse(File.read("test/sample.json"))
     parsed["uni"].each_with_index do |uni_string, index|
       assert_equal uni_string, converter.zg2uni(parsed["zg"][index])
     end
