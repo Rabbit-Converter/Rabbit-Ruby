@@ -1,7 +1,7 @@
 language: ruby
 rvm:
   - ruby-head
-  - jruby-head
+  - jruby-1.7.20
 matrix:
   allow_failures:
-    - rvm: jruby-head
+    - rvm: jruby-1.7.20
