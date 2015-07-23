@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Rabbit - Another Zawgyi <=> Unicode Converter'
   spec.description   = 'Rabbit is another Zawgyi <=> Unicode Converter under MIT liecnse.'
-  spec.homepage      = 'http://saturngod.github.io/Rabbit'
+  spec.homepage      = 'https://github.com/Rabbit-Converter/Rabbit-Ruby'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
