@@ -42,7 +42,7 @@ $ gem install rabbit-mm
 ## Usage
 
 ```ruby
-require 'rabbit-mm'
+require 'rabbit'
 
 rabbit = Rabbit::Converter.new
 
